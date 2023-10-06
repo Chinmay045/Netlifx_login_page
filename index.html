@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,60 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
 
-
+    <header class="site-header">
+        <img src="img/logo.svg">
+    </header>
+    <div class="login-form container">
+        <form action="#">
+            <legend>Sign In</legend>
+            <div class="field">
+                <input type="text" id="username">
+                <label>Email or Phone Number</label>
+            </div>
+            <div class="field">
+                <input type="password" id="password">
+                <label>password</label>
+                <span>Show</span>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Sign In">
+            </div>
+            <div class="remember-me">
+                <input type="checkbox">
+                <label>Remember me</label>
+            </div>
+            <div class="need-help">
+                <a href="">Need Help</a>
+            </div>
+        </form>
+        <div class="bottom-content">
+            <a href="">Login with Facebook</a>
+            <a href="" class="new-user">New to netflix ?
+                <span>Sign Up Now</span>
+            </a>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <p>Questions ? Call 01800-0000-0000</p>
+            <nav>
+                <a href="">Gift Cardds</a>
+                <a href="">Terms and Conditions</a>
+                <a href="">Privacy Statement</a>
+            </nav>
+            <select class="language">
+                <option value="eng">
+                    English
+                </option>
+                <option value="eng">
+                    Spanish
+                </option>
+            </select>
+        </div>
+    </footer>
 </body>
+
 </html>
