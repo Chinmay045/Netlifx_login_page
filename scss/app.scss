@@ -90,4 +90,30 @@ border-radius: 5px;
 }
     }
   }
+  input[type = "submit"]{
+    @include button($primary);
+    margin-top: 2rem;
+  }
+
+  .actions{
+    display: flex;
+    justify-content: space-between ;
+padding: 0.5rem 0;
+margin-bottom: 8rem;
+  }
+}
+
+.bottom-content{
+  padding-bottom: 2rem;
+  a{
+    font-size: .8rem;
+    display: flex;
+  }
+  .new-user{
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  span{
+    color: $white;
+  }
 }
