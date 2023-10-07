@@ -18,4 +18,14 @@ function validateInput() {
         classes = states[0];
     }
     console.log(classes);
+
+    if (classes === 'not-valid') {
+        const errorDiv = document.createElement('div');
+        errorDiv.appendChild(document.createTextNode('this field is mandatory'));
+        errorDiv.classList.add('alert');
+
+        console.log(errorDiv);
+
+        e.target.parentElement.parentElement.insertBefore();
+    }
 }
